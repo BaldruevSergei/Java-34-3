@@ -1,0 +1,58 @@
+00:12:34	Andreas Borger:	Da pojalusta
+00:12:42	Andreas Borger:	pokajite
+00:40:06	Viktor Goloviznin:	можно добавить  if (count == 0 || sum == 0) {             return -1;         }
+00:40:14	Viktor Goloviznin:	если я правильно понял
+01:01:10	Sergej Moskovtschenko:	все работает
+01:10:39	Леонид Кляйман:	Перерыв до 10:50
+01:27:31	Леонид Кляйман:	_______________
+01:27:31	Vladislava:	+
+01:27:33	Karolina:	+
+01:27:33	Liubov:	+
+01:27:35	Anton Ushakov:	+
+01:27:35	Tatyana Kondratyeva:	+
+01:27:35	Andreas Borger:	+++++
+01:27:35	Elena:	+
+01:27:36	Kirill:	+
+01:27:36	Alex Top:	+
+01:27:38	Kirill Bott:	+
+01:27:39	Olesia Voprykova:	+
+01:27:40	Iryna Yakymchuk:	+
+01:27:41	Sergey Makeev:	+
+01:27:41	Sergej Moskovtschenko:	+
+01:27:47	Yaroslav Bandura:	+++
+01:28:06	Viktor Goloviznin:	+
+01:28:10	Evgeniia Iusheva:	+
+01:30:41	Леонид Кляйман:	- добавить сотрудника
+    - удалить сотрудника
+    - найти сотрудника
+    - кол-во сотрудников
+    - ФОТ
+    - средняя з/п 
+    - объем продаж
+    - напечатать список сотрудников
+02:24:21	Леонид Кляйман:	employee[0] = new Manager(101, "John", "Smith", 45, 160, 5000, 5);
+        employee[1] = new SalesManager(102,"Anna", "Black", 36, 160, 25000, 0.1);
+        employee[2] = new SalesManager(103,"Thomas", "White", 28, 160, 30000, 0.1);
+        employee[3] = new Worker(104, "Gans", "Bauer", 30, 160, 5);
+02:39:17	Anton Ushakov:	может перерыв?
+02:39:45	Anatoly Karpov:	за
+02:40:22	Леонид Кляйман:	Перерыв до 12:20
+02:56:14	Леонид Кляйман:	________________
+02:56:21	Anton Ushakov:	+
+02:56:27	Sasha:	++++
+02:56:31	Kirill:	+
+02:56:33	Olesia Voprykova:	+
+02:56:34	Liubov:	+
+02:56:35	Karolina:	+
+02:56:36	Vladislava:	+
+02:56:36	Sergej Moskovtschenko:	+
+02:56:36	Sergey Makeev:	+
+02:56:37	Andreas Borger:	+
+02:56:38	Elena:	+
+02:56:40	Anatoly Karpov:	+
+02:56:41	Evgeniia Iusheva:	+
+02:56:42	Артем Крайнюков:	+
+02:56:46	Tatyana Kondratyeva:	+
+02:56:55	Viktor Goloviznin:	+
+02:56:56	Iryna Yakymchuk:	+
+03:00:23	Леонид Кляйман:	import static org.junit.jupiter.api.Assertions.*;

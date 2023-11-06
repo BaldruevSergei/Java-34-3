@@ -1,0 +1,82 @@
+01:09:31	Леонид Кляйман:	Перерыв до 10:45
+01:24:48	Леонид Кляйман:	_____________
+01:24:50	Ivan:	+
+01:24:53	Viktor Goloviznin:	+
+01:24:53	Olesia Voprykova:	+
+01:24:54	Vladislava:	+
+01:24:55	Sergei Baldruev:	+
+01:24:56	Anton Ushakov:	+
+01:24:57	Elena:	+
+01:24:58	Iryna Yakymchuk:	+
+01:24:58	Evgeniia Iusheva:	+
+01:24:59	Liubov:	+
+01:25:02	Yaroslav Bandura:	+
+01:25:03	Karolina:	+
+01:25:03	Sergey Makeev:	+
+01:25:07	Sergej Moskovtschenko:	+
+01:25:08	Kirill:	+
+01:25:09	Tatyana Kondratyeva:	+
+01:25:09	Anatoly Karpov:	+
+01:25:28	Kirill Bott:	+
+01:56:54	Ivan:	+
+01:56:56	Sergej Moskovtschenko:	+
+01:56:57	Anton Ushakov:	+
+01:56:58	Alex Top:	+
+01:56:58	Леонид Кляйман:	____________________
+01:56:58	Karolina:	+
+01:56:58	Yaroslav Bandura:	++
+01:56:59	Vladislava:	+
+01:56:59	Olesia Voprykova:	+
+01:56:59	Kirill Bott:	+
+01:56:59	Liubov:	+
+01:57:01	Elena:	+
+01:57:01	Alex Top:	+
+01:57:01	Viktor Goloviznin:	+
+01:57:02	Sergei Baldruev:	+
+01:57:04	Iryna Yakymchuk:	+
+01:57:04	Kirill:	+
+01:57:06	Anatoly Karpov:	+
+01:57:11	Sergey Makeev:	+
+01:57:35	Maria Sviridkina:	+
+01:57:35	Evgeniia Iusheva:	+
+01:57:41	Sergej Moskovtschenko:	+
+01:58:08	Tatyana Kondratyeva:	+
+01:59:37	Леонид Кляйман:	public static int countWords(String str) {
+        String[] words = str.split(" ");
+        int n = 0;
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].equals("–")) {
+                n++;
+            }
+        }
+        System.out.println(words.length);
+        System.out.println(n);
+        return words.length - n;
+    }
+02:02:45	Леонид Кляйман:	public static int countLetters(String str) {
+        String[] letters = str.split("");
+        int n = 0;
+        for (int i = 0; i < letters.length; i++) {
+            if (letters[i].equals(",") || letters[i].equals(".") || letters[i].equals("-") || letters[i].equals(" ") || letters[i].equals("–")) {
+                n++;
+            }
+        }
+        System.out.println(letters.length);
+        System.out.println(n);
+        return letters.length - n;
+    }
+02:26:31	Alex Top:	import org.junit.jupiter.api.BeforeEach;
+02:28:16	Леонид Кляйман:	import org.junit.jupiter.api.Assertions;
+   import org.junit.jupiter.api.BeforeEach;
+   import org.junit.jupiter.api.Test;
+02:37:58	Леонид Кляйман:	Перерыв 12:15
+02:38:01	Леонид Кляйман:	до
+02:55:16	Леонид Кляйман:	________
+02:55:19	Olesia Voprykova:	+
+02:55:21	Anton Ushakov:	+
+02:55:21	Viktor Goloviznin:	+
+02:55:34	Sergey Makeev:	+
+02:55:39	Iryna Yakymchuk:	+
+03:06:09	Леонид Кляйман:	import static org.junit.jupiter.api.Assertions.*;
+03:06:09	Sasha:	import static org.junit.jupiter.api.Assertions.*;
+03:07:35	Sasha:	assertEquals(3, sentence.countWords(str));
