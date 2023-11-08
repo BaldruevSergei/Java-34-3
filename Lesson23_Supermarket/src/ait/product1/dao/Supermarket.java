@@ -1,16 +1,16 @@
-package ait.product.dao;
+package ait.product1.dao;
 
-import ait.product.model.Product;
+import ait.product1.model.Product22;
 
 public class Supermarket {
-    private Product[] products;
+    private Product22[] products;
     private  int quantity;
 
     public Supermarket(int capacity){
-       products = new  Product[capacity];
+       products = new Product22[capacity];
     }
 
-    public boolean addProduct(Product product){
+    public boolean addProduct(Product22 product){
         if (product == null || quantity == products.length || findProduct(product.getBarcode())!= null){
             return false;
         }
@@ -19,7 +19,7 @@ public class Supermarket {
         return true;
     }
 
-    public Product findProduct(long barcode) {
+    public Product22 findProduct(long barcode) {
         // TODO find Product by barcode
         for (int i = 0; i < products.length; i++) {
             if (products[i] != null && products[i].getBarcode() == barcode) {
@@ -31,7 +31,7 @@ public class Supermarket {
 
 
 
-    public Product updateProduct(long barcode, double price) {
+    public Product22 updateProduct(long barcode, double price) {
 
         for (int i = 0; i < products.length; i++) {
             if (products[i] != null && products[i].getBarcode() == barcode) {

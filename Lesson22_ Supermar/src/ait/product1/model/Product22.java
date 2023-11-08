@@ -1,12 +1,11 @@
-package supermarket.product.model;
+package ait.product1.model;
 
-public class Product {
+public class Product22 {
     private long barcode;
-    private String name;
+    private  String name;
     private double price;
 
-    public Product(long barcode, String name, double price) {
-
+    public Product22(long barcode, String name, double price) {
         this.barcode = barcode;
         this.name = name;
         this.price = price;
@@ -24,9 +23,8 @@ public class Product {
         return price;
     }
 
-    public Product setPrice(double i) {
-        this.price = this.price;
-        return null;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     @Override
@@ -39,11 +37,11 @@ public class Product {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
 
-        Product product = (Product) o;
+        Product22 product = (Product22) object;
 
         return barcode == product.barcode;
     }
@@ -52,6 +50,4 @@ public class Product {
     public int hashCode() {
         return (int) (barcode ^ (barcode >>> 32));
     }
-
-
 }

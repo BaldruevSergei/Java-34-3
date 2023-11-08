@@ -1,11 +1,11 @@
-package ait.product.model;
+package ait.product1.model;
 
-public class Product {
+public class Product23 {
     private long barcode;
     private String name;
     private double price;
 
-    public Product(long barcode, String name, double price) {
+    public Product23(long barcode, String name, double price) {
 
         this.barcode = barcode;
         this.name = name;
@@ -24,7 +24,7 @@ public class Product {
         return price;
     }
 
-    public Product setPrice(double i) {
+    public Product22 setPrice(double i) {
         this.price = this.price;
         return null;
     }
@@ -43,9 +43,9 @@ public class Product {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Product product = (Product) o;
+        Product22 product = (Product22) o;
 
-        return barcode == product.barcode;
+        return barcode == product.getBarcode();
     }
 
     @Override

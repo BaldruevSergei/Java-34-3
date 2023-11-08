@@ -1,6 +1,6 @@
-package supermarket.product.model;
+package ait.product1.model;
 
-public class Food extends Product {
+public class Food extends Product22 {
     private String expDate;
     private boolean organic;
 
@@ -8,7 +8,6 @@ public class Food extends Product {
         super(barcode, name, price);
         this.expDate = expDate;
         this.organic = organic;
-
     }
 
     public String getExpDate() {
@@ -21,11 +20,9 @@ public class Food extends Product {
 
     @Override
     public String toString() {
-        return super.toString() + "Food{" +
+        return "Food{" +
                 "expDate='" + expDate + '\'' +
                 ", organic=" + organic +
-                '}' ;
+                "} " + super.toString();
     }
-
-
 }

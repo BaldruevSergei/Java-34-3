@@ -1,14 +1,20 @@
-package ait.product.model;
+package supermarketNew.product.model;
+
+import java.time.LocalDateTime;
+import java.util.Objects;
 
 public class Product {
     private long barcode;
-    private  String name;
+    private String name;
     private double price;
+    private LocalDateTime date;
 
-    public Product(long barcode, String name, double price) {
+    public Product(long barcode, String name, double price, LocalDateTime date) {
+
         this.barcode = barcode;
         this.name = name;
         this.price = price;
+        this.date = date;
     }
 
     public long getBarcode() {
@@ -22,9 +28,11 @@ public class Product {
     public double getPrice() {
         return price;
     }
+    public LocalDateTime getDate(){return date;}
 
-    public void setPrice(double price) {
-        this.price = price;
+    public Product setPrice(double i) {
+        this.price = this.price;
+        return null;
     }
 
     @Override
@@ -33,21 +41,20 @@ public class Product {
                 "barcode=" + barcode +
                 ", name='" + name + '\'' +
                 ", price=" + price +
+                ", date = " + date +
                 '}';
     }
 
     @Override
-    public boolean equals(Object object) {
-        if (this == object) return true;
-        if (object == null || getClass() != object.getClass()) return false;
-
-        Product product = (Product) object;
-
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Product product = (Product) o;
         return barcode == product.barcode;
     }
 
     @Override
     public int hashCode() {
-        return (int) (barcode ^ (barcode >>> 32));
+        return Objects.hash(barcode);
     }
 }

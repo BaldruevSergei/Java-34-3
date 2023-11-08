@@ -1,10 +1,10 @@
-package ait.product.model;
+package ait.product1.model;
 
-public class Food extends Product{
+public class Food23 extends Product22 {
     private String expDate;
     private boolean organic;
 
-    public Food(long barcode, String name, double price, String expDate, boolean organic) {
+    public Food23(long barcode, String name, double price, String expDate, boolean organic) {
         super(barcode, name, price);
         this.expDate = expDate;
         this.organic = organic;

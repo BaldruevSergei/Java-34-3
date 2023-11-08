@@ -1,12 +1,12 @@
-package supermarket.product.dao;
+package supermarketNew.product.dao;
 
-import supermarket.product.model.Product;
+import supermarketNew.product.model.Product;
 
-public class Supermarket {
+public class Supermarket1 {
     private Product[] products;
     private  int quantity;
 
-    public Supermarket(int capacity){
+    public Supermarket1(int capacity){
        products = new Product[capacity];
     }
 
