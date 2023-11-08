@@ -1,11 +1,15 @@
 package practice.todoappl;
-
+import practice.todoappl.dao.ToDoListImpl;
 import practice.archivemew.Archive.model.Menu;
 import practice.todoappl.model.Task;
 
 import java.util.Scanner;
 
-public class ToDoListAppl {
+public class ToDoListAppl extends ToDoListImpl {
+    public ToDoListAppl(int capacity) {
+        super(capacity);
+    }
+
     public static void main(String[] args) {
         // greeting
         System.out.println("Welcome to ToDo Application!");
@@ -49,6 +53,7 @@ public class ToDoListAppl {
                 }
             }
         }
+
     }
-    }
+}
 

@@ -1,16 +1,14 @@
 package practice;
 
-import javax.xml.crypto.Data;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.Locale;
 
-public class TimeAppl1 {
+public class TimeAppl {
     public static void main(String[] args) {
         //        **Работа с датами:**
 //        - узнать текущую дату и время

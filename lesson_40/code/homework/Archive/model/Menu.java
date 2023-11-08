@@ -1,7 +1,7 @@
 package homework.Archive.model;
 
 public enum Menu {
-    ADD(1, "Add document"), LIST(2, "List of documents"), QUANTITY(3, "Quantity"), EXIT(4, "Exit");
+    ADD(1, "Add document"), LIST(2, "List of documents"), QUANTITY(3, "Quantity"), VEW (4,"vew document"),DELET (5,"Delete document"),EXIT(6, "Exit");
 
     //fields
     private int menuItem;

@@ -40,12 +40,15 @@
       <sourceFolder url="file://$MODULE_DIR$/lesson_34/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_36/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_37/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_42 Test/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_38/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_39_1/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_40_1/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_41_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_42/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Marathon/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_40/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_41/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lesson_42 Test/code" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson_39/code" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson_38/code" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson_42/code" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
