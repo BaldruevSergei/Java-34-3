@@ -19,13 +19,14 @@ public class ArchiveAppl extends ArhiveImpl {
         System.out.println("Welcome to Archive.");
         ArhiveImpl archive = new ArchiveAppl(100);
         LocalDateTime time = LocalDateTime.now();
+        Scanner scanner = new Scanner(System.in);
         try {
         // начало цикла
         while (true) {
             // print menu
             Menu.printMenu(); // статический метод вызывается по имени класса
             // ask choice
-            Scanner scanner = new Scanner(System.in);
+
             System.out.println("Input your choice: ");
             int choice = scanner.nextInt();
             // execute
@@ -101,6 +102,6 @@ public class ArchiveAppl extends ArhiveImpl {
 
 
         }
-    }
+        }
 }
 
