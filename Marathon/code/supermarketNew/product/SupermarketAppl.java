@@ -31,39 +31,39 @@ public class SupermarketAppl {
                     case 1: {
 
                         System.out.println(" choice Product  - number 1   or   Food  - number 2");
+
+                        int a = scanner.nextInt();
+                        if (a == 1) {
+                            System.out.println("Input barcode: ");
+                            long barcode = scanner.nextLong();
+                            System.out.println("Input name ");
+                            scanner.nextLine(); // переход на новую строку и ожидание ввода
+                            String name = scanner.next();
+                            scanner.nextLine(); // переход на новую строку и ожидание ввода
+                            System.out.println("Input price: ");
+                            double price = scanner.nextDouble();
+                            LocalDateTime currTime = LocalDateTime.now();
+                            kiosk.addProduct(new Product(barcode, name, price, currTime)); break;
+                        } else  {
+                            System.out.println("Input barcode: ");
+                            long barcode = scanner.nextLong();
+                            System.out.println("Input name ");
+                            scanner.nextLine(); // переход на новую строку и ожидание ввода
+                            String name = scanner.next();
+                            scanner.nextLine(); // переход на новую строку и ожидание ввода
+                            System.out.println("Input price: ");
+                            double price = scanner.nextDouble();
+                            LocalDateTime currTime = LocalDateTime.now();
+                            System.out.println("Input  exDate");
+                            scanner.nextLine();
+                            String exDate = scanner.next();
+                            System.out.println("Input  organic (truth or false)");
+                            scanner.nextLine();
+                            boolean organic = scanner.nextBoolean();
+                            kiosk.addProduct(new Food1(barcode, name, price, currTime, exDate, organic));
+                        }
+                        break;
                     }
-                    int a = scanner.nextInt();
-                    if (a == 1) {
-                        System.out.println("Input barcode: ");
-                        long barcode = scanner.nextLong();
-                        System.out.println("Input name ");
-                        scanner.nextLine(); // переход на новую строку и ожидание ввода
-                        String name = scanner.next();
-                        scanner.nextLine(); // переход на новую строку и ожидание ввода
-                        System.out.println("Input price: ");
-                        double price = scanner.nextDouble();
-                        LocalDateTime currTime = LocalDateTime.now();
-                        kiosk.addProduct(new Product(barcode, name, price, currTime));break;
-                    }
-                    else {
-                        System.out.println("Input barcode: ");
-                        long barcode = scanner.nextLong();
-                        System.out.println("Input name ");
-                        scanner.nextLine(); // переход на новую строку и ожидание ввода
-                        String name = scanner.next();
-                        scanner.nextLine(); // переход на новую строку и ожидание ввода
-                        System.out.println("Input price: ");
-                        double price = scanner.nextDouble();
-                        LocalDateTime currTime = LocalDateTime.now();
-                        System.out.println("Input  exDate");
-                        scanner.nextLine();
-                        String exDate = scanner.next();
-                        System.out.println("Input  organic (truth or false)");
-                        scanner.nextLine();
-                        boolean organic = scanner.nextBoolean();
-                        kiosk.addProduct(new Food1(barcode, name, price, currTime, exDate, organic));
-                    }
-                    break;
 
                     case 2: {
                         System.out.println("List of position  in Supermarket: ");
@@ -78,12 +78,12 @@ public class SupermarketAppl {
                     case 4: {
                         System.out.println(" Search  of position  in Supermarket: ");
                         scanner.nextLine();
-                        System.out.println("Input folder barcode ");
+                        System.out.println("Input  barcode ");
                         long barcode = scanner.nextInt();
                         kiosk.findProduct(barcode);
                         if (kiosk.findProduct(barcode) == null) {
-                            System.out.println("This document does not exist");
-                        } else System.out.println(" Your document : " + kiosk.findProduct(barcode));
+                            System.out.println("This position  does not exist");
+                        } else System.out.println(" Your position  : " + kiosk.findProduct(barcode));
                         break;
 
                     }
@@ -97,7 +97,7 @@ public class SupermarketAppl {
                         if (kiosk.removeProduct1(barcode) == false) {
                             System.out.println("This product does not exist" + barcode);
                         } else
-                            System.out.println(" Your successfully delete document " + "  barcode  " + barcode + "and your position in Supermarket  now : ");
+                            System.out.println(" Your successfully delete position  " + "  barcode  " + barcode + "and your position in Supermarket  now : ");
                         kiosk.printAllProducts();
                         break;
                     }
