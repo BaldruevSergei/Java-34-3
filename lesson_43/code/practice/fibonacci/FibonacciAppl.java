@@ -1,14 +1,30 @@
 package practice.fibonacci;
 
+import java.util.Iterator;
+
 public class FibonacciAppl {
     public static void main(String[] args) {
 
         Fibonacci fibonacci = new Fibonacci(8);
-        // TODO - распечатать первые 8 числе из ряда Фибаначчи
-        // 1, 1, 2 , 3, 5, 8, 13 , 21 - это должно получиться
+        Iterator<Integer> iterator = fibonacci.iterator();
+        int sum = 0;
+        while (iterator.hasNext()) {
+            int dd = iterator.next();
+            System.out.println(dd);// TODO - распечатать первые 8 числе из ряда Фибаначчи
+            // 1, 1, 2 , 3, 5, 8, 13 , 21 - это должно получиться
+            sum = sum + dd;
+            dd = sum;
 
-        // TODO - сложить все эти числа
+        }
+        System.out.println("=============================");
+        System.out.println(" sum = " + sum); // TODO - сложить все эти числа
         // sum = 54
+
+
+
+
+
+
 
 
     }

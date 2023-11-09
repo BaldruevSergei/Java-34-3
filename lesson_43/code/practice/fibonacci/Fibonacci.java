@@ -17,6 +17,7 @@ public class Fibonacci implements  Iterable<Integer>{
 
     @Override
     public Iterator<Integer> iterator() {
-        return null; // TODO
+        return  new  FibonacciIterator(quantity);
+        }; // TODO
     }
-}
+
