@@ -53,10 +53,22 @@ public class IListAppl {
         System.out.println("Our Array(String)  has " + city.size() + "  elements");
         System.out.println(city.isEmpty());
 
+
         Iterator<String> iterator1 = city.iterator(); // печать при помощи Iterator
         while (iterator1.hasNext()) {
             System.out.print("   " + iterator1.next());
         }
+        System.out.println();
+        System.out.println("================================");
+        city.remove("Oslo");
+        city.add("Bonn");
+
+        Iterator<String> iterator2 = city.iterator(); // печать при помощи Iterator
+        while (iterator2.hasNext()) {
+            System.out.print("   " + iterator2.next());
+        }
+
+        city.add("Bonn");
     }
 
 
