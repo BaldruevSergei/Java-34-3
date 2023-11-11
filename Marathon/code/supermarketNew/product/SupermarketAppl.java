@@ -43,7 +43,7 @@ public class SupermarketAppl {
                             System.out.println("Input price: ");
                             double price = scanner.nextDouble();
                             LocalDateTime currTime = LocalDateTime.now();
-                            kiosk.addProduct(new Product(barcode, name, price, currTime)); break;
+                            kiosk.addProduct(new Product(barcode, name, price, currTime));
                         } else  {
                             System.out.println("Input barcode: ");
                             long barcode = scanner.nextLong();

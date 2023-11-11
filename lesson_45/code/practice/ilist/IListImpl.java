@@ -120,11 +120,11 @@ public class IListImpl<E> implements IList<E>{
         if (o != null) {
             for (int i = 0; i < size; i++) {
                 if (o.equals(elements[i])) {
-                    return i; // вернули индексесли нашли
+                    return i; // вернули индекс если нашли
 
                 }
             }
-        } else { // окгдав листе есть объект null
+        } else { // когда в листе есть объект null
             for (int i = 0; i < size; i++) {
                 if (null == (elements[i])) {
                     return i;
@@ -137,8 +137,24 @@ public class IListImpl<E> implements IList<E>{
 
     @Override
     public int lastIndexOf(Object o) {
-        // TODO
-        return 0;
+        if (o != null) {
+            for (int i = size; i >= 0; i--) {
+                if (o.equals(elements[i])) {
+                    return i;
+                }
+            }
+        } else { // когда в листе есть объект null
+            for (int i = 0; i < size; i++) {
+                if (null == (elements[i])) {
+                    return i;
+                }
+            }
+        } return -1;
+    }
+
+    @Override
+    public void print(Object[] arr) {
+
     }
 
     @Override
@@ -157,4 +173,6 @@ public class IListImpl<E> implements IList<E>{
             }
         };
     }
+
+
 }

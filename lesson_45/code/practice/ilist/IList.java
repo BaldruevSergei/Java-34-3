@@ -45,5 +45,5 @@ public interface IList <E> extends Iterable<E>{
     int lastIndexOf(Object o);  // ищем  индекс элемента с конца списка
 
 
-
+    void print(Object[] arr);
 }
