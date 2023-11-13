@@ -1,7 +1,5 @@
 package practice.ilist;
 
-import java.util.Iterator;
-
 public class IListAppl {
     public static void main(String[] args) {
 
@@ -28,13 +26,11 @@ public class IListAppl {
         System.out.println("================================");
         System.out.println(list.lastIndexOf(10));
 
-        Iterator<Integer> iterator = list.iterator(); // печать при помощи Iterator
-        while (iterator.hasNext()) {
-            System.out.print("   " + iterator.next());
-        }
+
         System.out.println();
         System.out.println("================================");
-        IList<String> city = new IListImpl<>();
+
+        IList<String> city = new IListImpl<>(); //  список на основе типа String (города)
 
         city.add("Berlin");
         city.add("Budapest");
@@ -54,26 +50,43 @@ public class IListAppl {
         System.out.println(city.isEmpty());
 
 
-        Iterator<String> iterator1 = city.iterator(); // печать при помощи Iterator
-        while (iterator1.hasNext()) {
-            System.out.print("   " + iterator1.next());
+        for (String q : city) {
+            System.out.print("   " + q);
         }
         System.out.println();
         System.out.println("================================");
         city.remove("Oslo");
         city.add("Bonn");
 
-        Iterator<String> iterator2 = city.iterator(); // печать при помощи Iterator
-        while (iterator2.hasNext()) {
-            System.out.print("   " + iterator2.next());
+        // печать при помощи Iterator
+        for (String d : city) {
+            System.out.print(d + " ");
         }
 
-        city.add("Bonn");
-    }
+        city.add("New York");
+        System.out.println();
+        System.out.println("================================");
+             // печать при помощи Iterator
+        for (String d1 : city) {
+            System.out.print(d1 + " ");}
+        city.add(3, "KAIR"); // вставили эелемент в индекс 3, на 4 место
+        System.out.println();
+        System.out.println("================================");
+        for (String d2 : city) {
+        System.out.print(d2 + " ");}
+        city.clean(); // затираем элементы массива
+        System.out.println();
+        System.out.println("================================");
+
+        for (String d3 : city) {
+        System.out.println(d3 + " ");}
+        }
+}
 
 
 
-    }
+
+
 
 
 

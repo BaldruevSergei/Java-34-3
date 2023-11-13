@@ -37,6 +37,9 @@ public class IListImpl<E> implements IList<E>{
         size = 0;
     }
 
+
+
+
     @Override
     public boolean add(E element) { // можем внести дубликаты
         ensureCapacity();
@@ -152,10 +155,8 @@ public class IListImpl<E> implements IList<E>{
         } return -1;
     }
 
-    @Override
-    public void print(Object[] arr) {
 
-    }
+
 
     @Override
     public Iterator<E> iterator() {
@@ -175,4 +176,7 @@ public class IListImpl<E> implements IList<E>{
     }
 
 
+    public void printArr(){
+
+    }
 }

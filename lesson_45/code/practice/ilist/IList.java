@@ -14,6 +14,8 @@ public interface IList <E> extends Iterable<E>{
     void clean(); // удалить все из списка
 
 
+
+
     boolean add(E element);// добавить элемент списка
 
     default boolean contains(Object o)// есть ли  элемент в списке
@@ -45,5 +47,4 @@ public interface IList <E> extends Iterable<E>{
     int lastIndexOf(Object o);  // ищем  индекс элемента с конца списка
 
 
-    void print(Object[] arr);
 }
