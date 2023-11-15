@@ -1,4 +1,4 @@
-package practice.company_v2.model;
+package practice.company_v_new.model;
 
 public class Manager extends Employee {
     private double baseSalary;

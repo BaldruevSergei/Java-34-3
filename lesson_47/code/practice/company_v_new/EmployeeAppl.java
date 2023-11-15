@@ -5,14 +5,15 @@ import practice.company_v_new.model.Manager;
 import practice.company_v_new.model.SalesManager;
 import practice.company_v_new.model.Worker;
 
-public class EmployeeAppl {
+public class EmployeeAppl  {
     public static void main(String[] args) {
 
         Employee[] empl = new Employee[4];
-        empl[0] = new Manager(100, "John", "Smith", 45, 160, 5000, 5);
-        empl[1] = new SalesManager(101, "Anna", "Black", 36, 160, 25000, 0.1);
-        empl[2] = new SalesManager(102, "Thomas", "White", 28, 160, 30000, 0.1);
-        empl[3] = new Worker(103, "Gans", "Bauer", 30, 160, 5);
+        empl[0] = new Manager(101, "John", "Smith", 45, 180, 10, "University", 5000, 6);
+        empl[1] = new SalesManager(102, "Anna", "Black", 30, 160, 6.7, "School", 3000, 4);
+        empl[2] = new SalesManager(103, "Thomas", "White", 28, 160, 6.7, "College", 2500, 3);
+        empl[3] = new Worker(104, "Gans", "Bauer", 30, 120, 3, "School", 3);
+
 
         double total = totalSalary(empl); // вызываем метод для расчета зарплаты
         System.out.println("TOTAL SALARY: " + total);
@@ -21,6 +22,30 @@ public class EmployeeAppl {
         double totalSales = totalSales(empl);
         System.out.println(totalSales);
         int print = printAllEmployee(empl);
+
+      /*  Comparator<Employee>  ComparatorByExperience = new Comparator<Employee>() {
+            @Override
+            public int compare(Employee o1, Employee o2) {
+                return Double.compare(o1.getExperience(), o2.getExperience());
+            }
+        };
+
+        System.out.println("============= Sort by experience ============== ");
+        for (Employee e : empl){
+            System.out.println(e);
+        }
+        Comparator<Employee>  ComparatorByEducation = new Comparator<Employee>() {
+            @Override
+            public int compare(Employee o1, Employee o2) {
+                return (o2.getLevelOfEducation().compareTo(o1.getLevelOfEducation()));
+            }
+        };
+        System.out.println("============= Sort by level education ============== ");
+        for (Employee e : empl){
+            System.out.println(e);
+        }
+*/
+
     }
 
     private static double totalSalary(Employee[] empl) {
@@ -50,15 +75,18 @@ public class EmployeeAppl {
                 SalesManager salesManager = (SalesManager) empl[i];
                 sum += salesManager.getSalesValue();
             }
-        } return sum;
+        }
+        return sum;
     }
 
-    private  static int printAllEmployee(Employee[] empl) {
+    private static int printAllEmployee(Employee[] empl) {
         for (int i = 0; i < empl.length; i++) {
             System.out.println(empl[i]);
 
         }
         return 0;
     }
+
+
 
 }

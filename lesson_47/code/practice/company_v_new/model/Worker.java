@@ -3,10 +3,11 @@ package practice.company_v_new.model;
 public class Worker extends Employee {
     private double grade;
 
-    public Worker(int id, String firstName, String lastName, int age, double hours, double grade) {
-        super(id, firstName, lastName, age, hours);
+    public Worker(int id, String firstName, String lastName, int age, double hours, double experience, String levelOfEducation, double grade) {
+        super(id, firstName, lastName, age, hours, experience, levelOfEducation);
         this.grade = grade;
     }
+
 
 
     public double getGrade() {

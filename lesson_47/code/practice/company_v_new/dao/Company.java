@@ -22,4 +22,15 @@ public interface Company {
     double totalSales();
     void printEmployee();
 
+    void printEmployees();
+
+    Employee[] findEmployeesHoursGreaterThan(int hours);
+
+    Employee[] findEmployeesSalaryRange(int minSalary, int maxSalary);
+
+
+    //      - список работников, у которых отработано больше часов, чем...
+
+
+//      - список работников, у которых зарплата в интервале от... и до...
 }

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16410163-03fc-44ef-9af0-3e1ca46ad872" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/dao/CompanyArrayListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/dao/CompanyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/tests/CompanyImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AItTR-Java-Cuse-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AItTR-Java-Cuse-2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/EmployeeAppl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/EmployeeAppl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/dao/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/dao/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/dao/CompanyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/dao/CompanyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/model/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/model/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/model/SalesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/model/SalesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/model/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/model/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_v1/tests/CompanyImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_v1/tests/CompanyImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_29/code/practice/StringBuilderAppl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_29/code/practice/StringPerformance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_29/code/practice/employee_firma/EmployeeAppl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_29/code/practice/employee_firma/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_29/code/practice/employee_firma/model/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_29/code/practice/employee_firma/model/SalesManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_29/code/practice/employee_firma/model/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/EmployeeAppl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/dao/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/dao/CompanyImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/model/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/model/SalesManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/model/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_30/code/practice/company/tests/CompanyImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_31/code/practice/company_v2/EmployeeAppl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/EmployeeAppl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_31/code/practice/company_v2/dao/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/dao/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_31/code/practice/company_v2/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_31/code/practice/company_v2/model/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/model/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_31/code/practice/company_v2/model/SalesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/model/SalesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_31/code/practice/company_v2/model/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_31/code/practice/company_v_new/model/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_31/code/practice/company_v2/tests/CompanyImp1lTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/EmployeeAppl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/EmployeeAppl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/dao/Company7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/dao/Company7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/dao/CompanyImpl7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/dao/CompanyImpl7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/model/Employee7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/model/Employee7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/model/Manager7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/model/Manager7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/model/SalesManager7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/model/SalesManager7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/model/Worker7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/model/Worker7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_32/code/practice/company_v2/tests/CompanyImpl7Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_32/code/practice/company_v_new/tests/CompanyImpl7Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_40_1" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_40_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_41_1" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_41_1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2YBzmAaXTeRDYFovZldG03LcIyR" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/ОИВТ/Java/AItTR-Java-Cuse-2023"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16410163-03fc-44ef-9af0-3e1ca46ad872" name="Changes" comment="" />
+      <created>1700013916944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700013916944</updated>
+    </task>
+    <servers />
+  </component>
+</project>
