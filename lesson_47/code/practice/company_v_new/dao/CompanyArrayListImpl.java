@@ -169,24 +169,27 @@ public class CompanyArrayListImpl implements Company {
         return res;
     }
 
+    // O(n)
 
     @Override
     public Employee[] findEmployeesSalaryRange(int minSalary, int maxSalary) {
+        // O(1)
         int count = 0;
+        // O(n)
         for (Employee e : employees) {
             if (e.calcSalary()> minSalary && e.calcSalary() < maxSalary) {
                 count++;
             }
         }
-
+        // O(1)
         Employee[] res = new Employee[count]; // создаем новый массив
         count= 0;
-        int mount = 0;
+        // O(n)
         for (Employee e : employees) {
             if (e.calcSalary() > minSalary && e.calcSalary() < maxSalary) {
-                res[count] = employees.get(mount);
+                res[count] = e;
                 count++;
-            } mount++;
+            }
         }
 
         return res;
