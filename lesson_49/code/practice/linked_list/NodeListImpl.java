@@ -11,7 +11,7 @@ public class NodeListImpl <E> implements NodeList<E>{
 
     @Override
     public int size() {
-        return size();
+        return size;
     }
 
     @Override
@@ -29,7 +29,10 @@ public class NodeListImpl <E> implements NodeList<E>{
     }
 
     @Override
-    public void xlear() {
+    public void clear() {
+        first = last = null; // можем одновременно присвоить нули
+        size = 0;
+
 // TODO
     }
 
@@ -77,32 +80,91 @@ public class NodeListImpl <E> implements NodeList<E>{
 
     @Override
     public E get(int index) {
-        return null;
+        Node<E> node = getNodeByIndex(index);
+        return node.data;
     }
+
 
     @Override
     public int indexOf(Object o) {
-        return 0;
+        int index = 0;
+        if (o != null) { // внутри узла не null и он есть
+            for (Node<E> node = first; node != null; node = node.next, index++) {// цикл который перебирает узлы
+                if (o.equals(node.data)) {
+                    return index;
+                }
+            }
+        } else {
+            for (Node<E> node = first; node != null; node = node.next, index++) {
+                if (o == node.data) { // null можно сравнивать через ==
+                    return index;
+                }
+            }
+        }
+        return -1; // объект о не найден  в списке
     }
 
     @Override
     public int lastIndexOf(Object o) {
         return 0;
-    }
+    }// TODO
 
     @Override
     public E remove(int index) {
-        return null;
+        Node<E> node = getNodeByIndex(index);
+        return unlink(node);
+
+    }
+
+    private E unlink(Node<E> node) {
+        E victim = node.data;
+        Node<E> prev = node.prev;
+        Node<E> next = node.next;
+        if (prev != null) {
+            prev.next = next;
+            node.prev = null;
+        } else {
+            first = next;
+        }
+        if (next != null) {
+            next.prev = prev;
+            node.next = null;
+        } else {
+            last = prev;
+        }
+        node.data = null;
+        size--;
+        return victim;
     }
 
     @Override
-    public Object set(int index, Object element) {
-        return null;
+    public E set(int index, E element) {
+        Node<E> node = getNodeByIndex(index);
+        E victim = node.data;
+        node.data = element;
+        return victim;
+
     }
 
     @Override
-    public Iterator iterator() {
-        return null;
+    public Iterator<E> iterator() {
+
+        return new Iterator<E>() {
+            Node<E>  current = first;
+            @Override
+            public boolean hasNext() {
+
+                return current != null;
+            }
+
+            @Override
+            public E next() {
+                E data = current.data;
+                current = current.next;
+                return data;
+            }
+        };
+
     }
 }
 

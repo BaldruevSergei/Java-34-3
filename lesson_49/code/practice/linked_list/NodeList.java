@@ -11,7 +11,7 @@ public interface NodeList<E>  extends Iterable<E> {
 
    boolean add(E element); // добавление
 
-   void xlear(); // зачистка
+   void clear(); // зачистка
 
     default boolean contains(Object o){
         return indexOf(o) >= 0; // есть ли такйо объект в списке по индексу
