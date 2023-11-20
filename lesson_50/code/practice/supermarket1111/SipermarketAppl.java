@@ -8,7 +8,7 @@ import practice.supermarket1111.model.Product;
 import java.time.LocalDate;
 
 public class SipermarketAppl {
-    public static void main(String[] args) {
+            public static void main(String[] args) {
         LocalDate now = LocalDate.now();
         Supermarket myMarket = new SupermarketImpl();
         myMarket.addProduct(new Product(111111, "White Bread", "Bread", "Kolosok", 6.5, now.plusDays(5)));
