@@ -66,7 +66,7 @@ class SupermarketImplTest {
         assertEquals(e[2],supermarket.removeProduct(333333));
         assertEquals(3,supermarket.skuQuantity()); // продуктов стало на 1 меньше
         assertNull(supermarket.removeProduct(333333)); // дважды не можем удалить один и тот же продукт
-        assertNull(supermarket.findByBarCode(333333));
+        assertNull(supermarket.findByBarCode(333333)); // не нашли удаленный продукт
         System.out.println("===========================");
         for (Product a : supermarket
         ) {
