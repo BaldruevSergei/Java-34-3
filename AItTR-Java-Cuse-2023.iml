@@ -60,6 +60,11 @@
       <sourceFolder url="file://$MODULE_DIR$/lesson_50/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_51_HashSet/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_52/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_53/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/work/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson_54_Movie/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_55/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_56/code" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
