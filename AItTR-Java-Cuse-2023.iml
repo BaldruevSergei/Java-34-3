@@ -66,6 +66,19 @@
       <sourceFolder url="file://$MODULE_DIR$/lesson_55/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_56/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson_57_Map/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_58_Collections_Stream/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_58_Collections_Stream/code/practice/Garage/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_59_Stream/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_60_Stream/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_61_Stream/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_65/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_63_Stream/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_64_Many_Stream/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_66/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_67/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_68/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_69/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson_70/code" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

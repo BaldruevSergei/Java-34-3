@@ -1,9 +1,9 @@
-package supermarketNew.product.model;
+package homework.todolist.model;
 
 import java.io.Serializable;
 
 public enum Menu implements Serializable {
-    ADD(1, "Add product"), LIST(2, "List of products"), QUANTITY(3, "Quantity"), VEW (4,"vew product"),SAVE(5,"save product"),READ(6,"Read product"), DELET (7,"Delete product"),EXIT(7, "Exit");
+    ADD(1, "Add task"), LIST(2, "List of tasks"), REMOVE(3, "Remove task"), SAVE(4, "Save"), LOAD(5, "Load"), EXIT(6, "Exit");
 
     //fields
     private int menuItem;
@@ -24,4 +24,3 @@ public enum Menu implements Serializable {
         System.out.println(); // new line
     }
 }
-

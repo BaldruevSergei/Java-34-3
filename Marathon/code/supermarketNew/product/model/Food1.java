@@ -1,8 +1,9 @@
 package supermarketNew.product.model;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class Food1 extends Product {
+public class Food1 extends Product1 implements Serializable {
     private String expDate;
     private boolean organic;
 
@@ -10,6 +11,7 @@ public class Food1 extends Product {
         super(barcode, name, price, date);
         this.expDate = expDate;
         this.organic = organic;
+
     }
 
     @Override
